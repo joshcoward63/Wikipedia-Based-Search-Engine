@@ -167,57 +167,228 @@ Overall based on the results from each of the individual queries I would say tha
 |**3**|pizza dough|0.054|
 |**4**|pizza pan|0.030|
 |**5**|pizza delivery|0.030|
-Results from Wikipedia:
 
-**Query:** fried chicken![](Aspose.Words.ce52cff0-d5a5-4509-9ed9-8112e955e41d.001.png)
+##Results from Wikipedia:
+
+<table>
+  <tr>
+   <td colspan="2" ><strong>Query: </strong>fried chicken
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Ranking</strong>
+   </td>
+   <td><strong>Document Title</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1</strong>
+   </td>
+   <td>Fried chicken
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2</strong>
+   </td>
+   <td>KFC
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3</strong>
+   </td>
+   <td>Chicken fried steak
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4</strong>
+   </td>
+   <td>Korean fried chicken
+   </td>
+  </tr>
+  <tr>
+   <td><strong>5</strong>
+   </td>
+   <td>Popeyes
+   </td>
+  </tr>
+</table>
 
 
 
-|**Ranking**|**Document Title**|
-| - | - |
-|**1**|Fried chicken|
-|**2**|KFC|
-|**3**|Chicken fried steak|
-|**4**|Korean fried chicken|
-|**5**|Popeyes|
+<table>
+  <tr>
+   <td colspan="2" ><strong>Query: </strong>fried chicken recipe
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Ranking</strong>
+   </td>
+   <td><strong>Document Title</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1</strong>
+   </td>
+   <td>Fried chicken
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2</strong>
+   </td>
+   <td>KFC Original Recipe
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3</strong>
+   </td>
+   <td>KFC
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4</strong>
+   </td>
+   <td>Chicken fried steak
+   </td>
+  </tr>
+  <tr>
+   <td><strong>5</strong>
+   </td>
+   <td>Crispy fried chicken
+   </td>
+  </tr>
+</table>
 
 
-|**Query:** fried chicken recipe|
-| - |
-|**Ranking**|**Document Title**|
-|**1**|Fried chicken|
-|**2**|KFC Original Recipe|
-|**3**|KFC|
-|**4**|Chicken fried steak|
-|**5**|Crispy fried chicken|
+
+<table>
+  <tr>
+   <td colspan="2" ><strong>Query: </strong>Donald Trump
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Ranking</strong>
+   </td>
+   <td><strong>Document Title</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1</strong>
+   </td>
+   <td>Donald Trump
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2</strong>
+   </td>
+   <td>Donald Trump Jr.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3</strong>
+   </td>
+   <td>Presidency of Donald Trump
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4</strong>
+   </td>
+   <td>Family of Donald Trump
+   </td>
+  </tr>
+  <tr>
+   <td><strong>5</strong>
+   </td>
+   <td>Donald Trump 2016 presidential campaign
+   </td>
+  </tr>
+</table>
 
 
-|**Query:** Donald Trump|
-| - |
-|**Ranking**|**Document Title**|
-|**1**|Donald Trump|
-|**2**|Donald Trump Jr.|
-|**3**|Presidency of Donald Trump|
-|**4**|Family of Donald Trump|
-|**5**|Donald Trump 2016 presidential campaign|
+
+<table>
+  <tr>
+   <td colspan="2" ><strong>Query: </strong>Barack Obama
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Ranking</strong>
+   </td>
+   <td><strong>Document Title</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1</strong>
+   </td>
+   <td>Barack Obama
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2</strong>
+   </td>
+   <td>Barack Obama Sr.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3</strong>
+   </td>
+   <td>Family of Barack Obama
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4</strong>
+   </td>
+   <td>Presidency of Barack Obama
+   </td>
+  </tr>
+  <tr>
+   <td><strong>5</strong>
+   </td>
+   <td>Barack Obama citizenship conspiracy theories
+   </td>
+  </tr>
+</table>
 
 
-|**Query:** Barack Obama|
-| - |
-|**Ranking**|**Document Title**|
-|**1**|Barack Obama|
-|**2**|Barack Obama Sr.|
-|**3**|Family of Barack Obama|
-|**4**|Presidency of Barack Obama|
-|**5**|Barack Obama citizenship conspiracy theories|
 
-
-|**Query:** Pizza|
-| - |
-|**Ranking**|**Document Title**|
-|**1**|Pizza|
-|**2**|Pizza Hut|
-|**3**|Pizza Pizza|
-|**4**|&pizza|
-|**5**|Hawaiian pizza|
-
+<table>
+  <tr>
+   <td colspan="2" ><strong>Query: </strong>Pizza
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Ranking</strong>
+   </td>
+   <td><strong>Document Title</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1</strong>
+   </td>
+   <td>Pizza
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2</strong>
+   </td>
+   <td>Pizza Hut
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3</strong>
+   </td>
+   <td>Pizza Pizza
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4</strong>
+   </td>
+   <td>&pizza
+   </td>
+  </tr>
+  <tr>
+   <td><strong>5</strong>
+   </td>
+   <td>Hawaiian pizza
+   </td>
+  </tr>
+</table>
