@@ -1,30 +1,3 @@
-<!-- Output copied to clipboard! -->
-
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 1.775 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Thu May 26 2022 20:29:24 GMT-0700 (PDT)
-* Source doc: Untitled document
-* Tables are currently converted to HTML tables.
------>
-
-
-Josh Coward and Sam Jackson
-
 CS 437
 
 Project 1
@@ -33,7 +6,7 @@ Search Engine Report
 
 **Implementation of Text Processing :**
 
-For the implementation of this project we used a lot of code from the previous homeworks as a starting point. The tokenizer we used was once again the work_tokenize from nltk and again we opted for lemmatization rather than stemming in our preprocessing using nltk’s WordNetLemmatizer. This was due to the fact that stemming resulted in a lack of meaning which makes it harder to return relevant results. We also used ntlks english stopword list in which we had appended punctuation to it to help remove the /r and /n present in the content of each document.
+For the implementation of this project we used a lot of code we wrote from the previous homeworks as a starting point. The tokenizer we used was once again the work_tokenize from nltk and again we opted for lemmatization rather than stemming in our preprocessing using nltk’s WordNetLemmatizer. This was due to the fact that stemming resulted in a lack of meaning which makes it harder to return relevant results. We also used ntlks english stopword list in which we had appended punctuation to it to help remove the /r and /n present in the content of each document.
 
 **Statistics on Document Collection:**
 
@@ -809,7 +782,7 @@ Overall based on the results from each of the individual queries I would say tha
 </table>
 
 
-Results from Wikipedia:
+## Results from Wikipedia:
 
 
 <table>
