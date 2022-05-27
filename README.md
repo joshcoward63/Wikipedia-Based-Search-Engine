@@ -1,14 +1,21 @@
-CS 437
+<h1>CS 437 Information Retrieval Project</h1>
 
-Project 1
+<h3>Project Overview:</h3>
+This is a search engine built using concepts of information retrieval learned from the CS437 course taught at Boise State University. The
+project is a small scale search engine built using a small subset of the Wikipedia dataset. The goal of the project was to demonstrate learned concepts
+by creating a functioning search engine where the emphasis was on quality of results rather then efficiency of the retrieval of them.
 
-Search Engine Report
+<h3>Tech Stack:</h3>
+This project was written almost purely in Python using Jupyter Notebooks. The web application used Flask as the underlying server and used HTML,CSS, and JavaScript for the layout. The data that was used and preprocessed was stored locally on file.
 
-**Implementation of Text Processing :**
+
+<h2>Search Engine Report:</h2>
+
+<h3>Implementation of Text Processing :</h3>
 
 For the implementation of this project we used a lot of code we wrote from the previous homeworks as a starting point. The tokenizer we used was once again the work_tokenize from nltk and again we opted for lemmatization rather than stemming in our preprocessing using nltk’s WordNetLemmatizer. This was due to the fact that stemming resulted in a lack of meaning which makes it harder to return relevant results. We also used ntlks english stopword list in which we had appended punctuation to it to help remove the /r and /n present in the content of each document.
 
-**Statistics on Document Collection:**
+<h3>Statistics on Document Collection:</h3>
 
 The number of documents present: 1,286,264
 
@@ -16,11 +23,11 @@ Index size prior to preprocessing: 244,435,249
 
 Index size after preprocessing: 2,651,233
 
-**Implementation of Query Suggestions:**
+<h3>Implementation of Query Suggestions:</h3>
 
 To implement query suggestions, we imported the query log into a dataframe to make manipulating the data easier. In this case, it was simpler to use a dataframe but to make it more efficient a dictionary could be used. We wrote a method that takes the query as a parameter and outputs all queries that begin with the input (excluding an exact match, as suggesting the inputted query would be pointless). These results are sorted by frequency, so the queries that q’ are most often modified to are presented first, as intended by the 𝑆𝑐𝑜𝑟𝑒(𝐶𝑄, 𝑞′) equation.
 
-**Implementation of Ranking:**
+<h3>Implementation of Ranking:</h3>
 
 Like instructed, the way we went about coming up with our ranking system was by using the inverted_index which in our case consisted of a dictionary where the key was equal to the specific word and the value was equal to a list of all the documents that the word could be found in. In our case we opted to account for the number of occurrences of each word in a particular document later outside the inverted_index in the case if the word appeared in the query in order to achieve a faster and more efficient computation.
 
@@ -32,13 +39,13 @@ The documents were then added to a dictionary where the key was the Document ID 
 
 The purpose of using dictionaries in this project served multiple purposes. One being that it allowed a lookup time of O(1) which is about as fast as you can get. Also flask will only allow dictionaries and strings to be sent over to an ajax function in javascript so using a dictionary was a must.
 
-**Implementation of snippet generation:**
+<h3>Implementation of snippet generation:</h3>
 
 To generate snippets of relevant documents, we found the two sentences with the highest cosine similarity score with the query in each document. Originally, we used a dataframe to store this information but we chose to switch to a dictionary for efficiency, as the previous method slowed the calculation of results. To calculate the cosine similarity, we used the sklearn library’s TfIdfVectorizor function to create a matrix of TF-IDF scores for each word in the query and each sentence in a document. We also used sklearn’s cosine_similarity function to compare the relevancy of sentences, using the TF-IDF matrix as input, as it is an efficient implementation of the calculation that uses smoothing to avoid division by zero.
 
 In some documents, there may be only one sentence that is of importance to the user based on the query. In these cases, we chose to only return one sentence instead of presenting one relevant sentence and one irrelevant sentence, as we felt that is more practical for a user.
 
-**Discussion:**
+<h2>Discussion:</h2>
 
 
 <table>
