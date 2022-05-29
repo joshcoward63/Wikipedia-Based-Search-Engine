@@ -5,7 +5,7 @@ This is a search engine built using concepts of information retrieval learned fr
 project is a small scale search engine built using a small subset of the Wikipedia dataset. The goal of the project was to demonstrate learned concepts
 by creating a functioning search engine where the emphasis was on quality of results rather then efficiency of the retrieval of them.
 
-![](screenshots/SearchEngine.gif)
+![](screenshots/searchEngine.gif)
 
 
 <h3>Tech Stack:</h3>
